@@ -1,0 +1,90 @@
+body{
+	font-family: "Segoe WP";
+	font-size: x-large;
+	font-weight: 300;
+	color: black;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#plan, #news {
+	width: 610px;
+	margin-top:65px;
+	margin-left: 115px;
+}
+#news{
+	font-size: xx-large;
+}
+#logo{
+	margin-bottom: 25px;
+}
+#plan-title {
+	background-color: #005aab;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	padding: 7px 20px 7px 7px;
+}
+.table {
+	display: table;
+	width: 100%;
+}
+.row {
+	display: table-row;
+}
+.cell {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 10px;
+}
+.row:nth-child(odd) {
+	background-color: #ffffff;
+}
+.row:nth-child(even) {
+	background-color: #e5eef7;
+}
+form .row:nth-child(odd) {
+	background-color: transparent;
+}
+form .row:nth-child(even) {
+	background-color: transparent;
+}
+form input[type=radio]{
+	width: 0.9em;
+	height: 0.9em;
+}
+#plan .table {
+	border-top: 2px solid #005aab;
+	border-bottom: 2px solid #005aab;
+}
+#plan .table-heading {
+	background-color: #4183c0;
+	color: #ffffff;
+	font-size: medium;
+}
+.table-heading .cell {
+	padding: 5px;
+}
+.ind-featured {
+	text-align: center;
+	width: 105px;
+}
+.kitten{
+	background-image: url(assets/vca_background_wp_kitten.png);
+}
+.puppy{
+	background-image: url(assets/vca_background_wp_puppy.png);
+}
+.adult-cat{
+	background-image: url(assets/vca_background_wp_adult_cat.png);
+}
+.adult-dog{
+	background-image: url(assets/vca_background_wp_adult_dog.png);
+}
+.senior-cat{
+	background-image: url(assets/vca_background_wp_senior_cat.png);
+}
+.senior-dog{
+	background-image: url(assets/vca_background_wp_senior_dog.png);
+}
