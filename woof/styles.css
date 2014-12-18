@@ -1,7 +1,7 @@
 body{
 	font-family: "Segoe WP";
-	font-size: x-large;
-	font-weight: 300;
+	font-size: 40px;
+	font-weight:lighter;
 	color: black;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -13,7 +13,7 @@ body{
 	margin-left: 115px;
 }
 #news{
-	font-size: xx-large;
+	font-size: 40px;
 }
 #logo{
 	margin-bottom: 25px;
@@ -25,10 +25,14 @@ body{
 	color: #fff;
 	display: inline-block;
 	padding: 7px 20px 7px 7px;
+	font-family: "Segoe UI Semilight";
+	font-size: 30px;
 }
 .table {
 	display: table;
 	width: 100%;
+	font-family: "Segoe UI Semilight";
+	font-size: 35px;
 }
 .row {
 	display: table-row;
@@ -61,7 +65,8 @@ form input[type=radio]{
 #plan .table-heading {
 	background-color: #4183c0;
 	color: #ffffff;
-	font-size: medium;
+	font-size: 14px;
+	font-family: "Segoe UI Regular";
 }
 .table-heading .cell {
 	padding: 5px;
